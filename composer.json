@@ -1,5 +1,5 @@
 {
-    "name": "nategood/commando",
+    "name": "bobdenotter/commando",
     "description": "PHP CLI Commando Style",
     "homepage": "http://github.com/nategood/commando",
     "license": "MIT",
@@ -8,16 +8,20 @@
         {
             "name": "Nate Good",
             "email": "me@nategood.com"
+        },
+        {
+            "name": "Bob den Otter",
+            "email": "bob@twokings.nl"
         }
     ],
     "require": {
-        "php": ">=5.6",
-        "kevinlebrun/colors.php": "~0.2"
+        "php": ">=8.0",
+        "kevinlebrun/colors.php": "^0.4"
     },
-    "version": "0.4.0",
     "autoload": {
         "psr-0": {"Commando": "src/"}
     },
     "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }

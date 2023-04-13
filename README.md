@@ -1,7 +1,8 @@
 # Commando
-## An Elegant PHP CLI Library
 
-[![Build Status](https://secure.travis-ci.org/nategood/commando.png?branch=master)](http://travis-ci.org/nategood/commando)
+Note: This is a fork of https://github.com/nategood/commando, compatible with PHP 8.1 and up. 
+
+## An Elegant PHP CLI Library
 
 Commando is a PHP command line interface library that beautifies and simplifies writing PHP scripts intended for command line use.
 
@@ -11,12 +12,12 @@ PHP's `$argv` magic variable and global `$_SERVER['argv']` make me cringe, [`get
 
 ## Installation
 
-*Commando requires that you are running PHP 5.6 or higher.*
+*Commando requires that you are running PHP 8.1 or higher.*
 
-Commando is [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) compliant and can be installed using [Composer](http://getcomposer.org/).  Add `nategood/commando` to your `composer.json`
+Commando is [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) compliant and can be installed using [Composer](http://getcomposer.org/).  Add `bobdenotter/commando` to your `composer.json`
 
     "require": {
-        "nategood/commando": "*"
+        "bobdenotter/commando": "*"
     }
 
 If you're new to Composer...
@@ -288,6 +289,10 @@ Commando highly encourages sending in pull requests.  When submitting a pull req
 Released under MIT license.
 
 ## Change Log
+
+### 1.0.0
+
+ - [PR #1](https://github.com/bobdenotter/commando/pull/1) PHP 8.1 compat fixes.
 
 ### v0.4.0
 
