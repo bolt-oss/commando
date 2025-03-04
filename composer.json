@@ -1,5 +1,5 @@
 {
-    "name": "bobdenotter/commando",
+    "name": "bolt-oss/commando",
     "description": "PHP CLI Commando Style",
     "homepage": "http://github.com/nategood/commando",
     "license": "MIT",
@@ -14,6 +14,9 @@
             "email": "bob@twokings.nl"
         }
     ],
+    "replace": {
+      "bobdenotter/commando": "*"  
+    },
     "require": {
         "php": ">=8.0",
         "kevinlebrun/colors.php": "^0.4"
